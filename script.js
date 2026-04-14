@@ -9,7 +9,7 @@ const sortedBand = bands.sort((a,b) => {
 	return trimed(a).localeCompare(trimed(b))
 })
 
-const ul = document.querySelector("#band")
+const ul = document.querySelector("#bands")
 
 sortedBand.forEach(band => {
 	const li = document.createElement("li")

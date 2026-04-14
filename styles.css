@@ -3,7 +3,7 @@ section{
     display: flex;
     justify-content: center;
 }
-#band{
+#bands{
     width: 40%;
     font-size: 20px;
     text-align: left;
